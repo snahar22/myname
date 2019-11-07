@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #000000; 
+
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my_name {
+  font-family: Arial;
+  color: transparent;
+  text-align: center;
+  font-size: 8rem;
+  font-weight: bold;
+  background: url(https://media.giphy.com/media/pjBLl26fGPCOqTBIvy/source.gif);
+  background-size: contain;
+  -webkit-background-clip: text; 
+}
